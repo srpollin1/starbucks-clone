@@ -33,7 +33,7 @@ li {
     text-align: end;
     align-items: center;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-direction: row-reverse;
     font-family: sans-serif;
 }
@@ -49,6 +49,9 @@ li {
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
+
+    color: white;
+    background-color: black;
 }
 
 .sign-in {
