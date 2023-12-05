@@ -1,3 +1,3 @@
 # starbucks-clone
-# icono: https://www.svgrepo.com/svg/473799/starbucks?edit=true
-# icono: https://www.starbucks.com/
+# Original: https://www.starbucks.com/
+# Clone: https://starbucks-clone-01.netlify.app/
