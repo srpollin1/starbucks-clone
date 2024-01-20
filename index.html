@@ -7,7 +7,7 @@
     <link rel="icon" href="./src/img/starbucks-svgrepo-com.svg" type="png">
     <link rel="stylesheet" href="style.css">
     <title>Starbucks-clone</title>
-
+    <button class="burger" onclick="toggleMenu()"></button>
     <nav>
         <div class="logo">
             <a>
@@ -31,9 +31,13 @@
             <img src="./src/img/icons8-marcador-16.png" alt="">
 
         </div>
-        <li class="burger-menu"><img src="./src/img/icons8-menú.svg"></li>
+        
+        <div class="menus">
+            
+          </div>
     </nav>
 
+    
     <div class="container">
         <div>
             <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87741.jpg" alt="">
@@ -59,6 +63,7 @@
             </div>
         </div>
         <div>
+            
             <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-87702.jpg" alt="">
         </div>
         <div>
@@ -76,7 +81,10 @@
         </div>
     </div>
 </head>
-
+<script>
+    const toggleMenu = () => document.body.classList.toggle("open");
+    console.log("hola desde html");
+  </script>
 <body>
     <script src="main.js"></script>
 </body>
