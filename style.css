@@ -59,6 +59,10 @@ ul {
   text-align: center;
 }
 
+.learn-more{
+  list-style: none;
+}
+
 .join-now {
   color: white;
   background-color: black;
